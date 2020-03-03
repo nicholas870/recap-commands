@@ -8,3 +8,47 @@ Adds all the files in the .git folder excluding all ignored files
 
 3. git add * 
 Adds all the files in the .git folder including all ignored files
+4. git add <filename>
+Adds that specific file name in your .git folder
+
+5. git commit -m "Description"
+Adds a description of the files you are committing
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\for first time users\\\\\\\\\\\\\\\\\\
+To set up your aaccount use
+ git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+6. git remote add origin
+Connects your .git folder to your github folder
+
+7. git push -u origin master
+Sends/updates the changes to your github folder
+
+   git pull
+Does the opposite of what git push does
+
+8.git clone
+Copies a git repository from a remote source to your machine
+command : git clone <repository url>
+
+9. git status
+Checks the status of the files you've changed in your working directory
+
+10. git checkout
+Switch between various branches
+
+11. git branch -a
+Checks all the branches that are in remote
+
+12. git reset head
+Clears all configurations made
+
+13. git merge
+Merges two branches you were working on
+
+14. git fetch
+performs a pull request
+
+
